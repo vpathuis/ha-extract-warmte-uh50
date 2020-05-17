@@ -102,7 +102,7 @@ class UH50(hass.Hass):
   # the next part is not related to the device, but should be adjusted to your situation
   def SendWarmteReading(self, GJ = "", m3 = ""):
     self.log("Sending warmte reading")
-    api = "http://192.168.1.16/warmte-bijwerken-api/"
+    api = "<<put url here>>/warmte-bijwerken-api/"
     today = datetime.date.today().strftime('%Y-%m-%d')
     winter = "" # not implemented yet
     temp = "" # not implemented yet
