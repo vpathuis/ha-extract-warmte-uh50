@@ -75,10 +75,6 @@ class UH50(hass.Hass):
     GJ = ''
     m3 = ''
     foutcode = ''
-    if test == 1:
-        eindstring = "einde"
-    else:
-        eindstring = b"\x03"
 
     # Keep reading till the very end
     try:
