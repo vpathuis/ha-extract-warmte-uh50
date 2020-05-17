@@ -1,0 +1,4 @@
+---
+extract_warmte:
+  module: extract-warmte
+  class: UH50
