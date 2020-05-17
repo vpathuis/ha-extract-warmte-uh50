@@ -76,7 +76,7 @@ class UH50(hass.Hass):
     m3 = ''
     foutcode = ''
 
-    # Keep reading till the very end
+    # Keep reading till we have what we need, or otherwise till the very end
     try:
         while ir_line != b'' and  GJ == '' and iteration < 100:
             iteration += 1
